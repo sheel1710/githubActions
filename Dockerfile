@@ -1,6 +1,6 @@
 FROM python:3.9-alpine
 WORKDIR /<github-repo>
-ENV  MSG="Welcome to AWS World!"
+ENV  MSG="Hello World!"
 COPY . .
 RUN pip3 install -r requirement.txt
 EXPOSE 5000
